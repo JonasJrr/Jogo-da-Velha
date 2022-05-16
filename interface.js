@@ -22,7 +22,6 @@ function handleClick(event) {
 
     };
     updateSquares();
-
 }
 
 function updateSquares() {
