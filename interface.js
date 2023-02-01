@@ -17,7 +17,7 @@ function handleClick(event) {
 
        setTimeout(() => {
             alert("O jogo acabou!");
-
+            window.location.reload(true);
         }, 10);
 
     };
