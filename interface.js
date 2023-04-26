@@ -18,7 +18,7 @@ function handleClick(event) {
        setTimeout(() => {
             alert("O jogo acabou!");
             window.location.reload(true);
-        }, 10);
+        }, 20);
 
     };
     updateSquares();
@@ -35,6 +35,5 @@ function updateSquares() {
         if (symbol != '') {
             square.innerHTML = `<div class='${symbol}'></div>`
         }
-
     })
 }

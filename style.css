@@ -20,51 +20,41 @@ body{
     100% {background-color: rgb(101, 31, 101)}
 }
 
-#tit{
-    font-size: 40px;
-    text-shadow: 3px 3px 5px lightsalmon;
+.stage{
+    margin-top: 100px;
 }
 
-@media(max-width:560px){
-#tit{
-    font-size: 30px;
-    text-shadow: 3px 3px 5px lightsalmon;}
-}
-
-@media(max-width:400px){
-#tit{
-    font-size: 25px;
-    text-shadow: 2px 2px 2px lightsalmon;}
+@media(max-width:580px){
+.stage{
+    margin-top: 120px;}
 }
 
 .square{
-    width: 120px;
-    height: 120px;
+    width: 130px;
+    height: 130px;
     background-color:lightsalmon;
     border: 5px double black;
     box-shadow: 0px 0px 10px 0px white;
     display: inline-block;
 }
 
-@media(max-width:560px){
+@media(max-width:760px){
+.square{
+    width: 115px;
+    height: 115px;}
+}
+
+@media(max-width:580px){
 .square{
     width: 100px;
-    height: 100px;
-    background-color:lightsalmon;
-    border: 4px double  black;
-    box-shadow: 0px 0px 8px 0px white;
-    display: inline-block;}
+    height: 100px;}
 }
 
 @media(max-width:400px){
-    .square{
-        width: 75px;
-        height: 75px;
-        background-color:lightsalmon;
-        border: 3px double black;
-        box-shadow: 0px 0px 6px 0px white;
-        display: inline-block;}
-    }
+.square{
+    width: 80px;
+    height: 80px;}
+}
 
 .o{
     position: relative;
