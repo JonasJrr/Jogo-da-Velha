@@ -1,1 +1,1 @@
-Tic-tac-toe game developed with HTML, CSS and JavaScript / Jogo da Velha desenvolvido com HTML, CSS e JavaScript.
+Jogo da Velha, um dos projetos do curso de Desenvolvimento Web Full-Stack (PROGRAMADORBR) desenvolvido com HTML, CSS e JavaScript.
